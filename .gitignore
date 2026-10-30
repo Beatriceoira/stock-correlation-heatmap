@@ -1,0 +1,42 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.python-version
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+venv
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated output (recreated each run)
+correlation_matrix.csv
+correlation_heatmap.png
+my_heatmap.png
+
+# Secrets and local config
+.env
+*.env
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
